@@ -31,7 +31,10 @@
 
 ### 说明
 
-- 仓库不含任何视频素材；片源由使用者自行放置，版权归各自作者
+- 仓库内新增 `media-samples/`：三段示例片头（`1.mp4`、`deepseek-startup-intro.mp4`、
+  `deepseek-cyberpunk-intro.mp4`），只作参考分发，插件不会自动读取；出处与许可见
+  `media-samples/NOTICE.md`（上游分别为 MIT 与 BSD-3-Clause，许可文本随文件保留）
+- 插件运行路径始终是 `~/.dsh/boot-videos/`，不放素材也能正常开机
 - 上游：`LeeRolling/dsh-boot-suite` v2.11.3（MIT），署名与许可原样保留
 
 ---

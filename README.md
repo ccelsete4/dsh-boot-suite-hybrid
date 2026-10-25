@@ -275,7 +275,13 @@ MIT（只覆盖作者原创代码与文案）。
 
 ### 素材与许可
 
-仓库里**不包含任何视频素材**。示例里提到的三段片子来自第三方作品，
-版权归各自作者，请自行准备并放进 `~/.dsh/boot-videos/`。
+插件本体**不内置、也不自动加载任何视频**：运行路径永远是 `~/.dsh/boot-videos/`。
+
+仓库根目录的 [`media-samples/`](media-samples/) 放了三段可用作示例的片子
+（分别来自 `lxj5820/dsh-boot-animation` 与 `NativeDog1/dsh-boot-animation`），
+**只作为参考素材分发，插件不会自动读取**。出处、许可与素材版权说明见
+[`media-samples/NOTICE.md`](media-samples/NOTICE.md) 和 [`media-samples/README.md`](media-samples/README.md)。
+
 本 fork 的代码改动与原仓库同为 MIT，署名与原许可声明一并保留。
+
 
